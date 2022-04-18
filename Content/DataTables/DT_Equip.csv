@@ -1,0 +1,3 @@
+---,WeaponType,Montage,PlayRate,LockedLook
+1,"OneHand","AnimMontage'/Game/Character/Montages/OneHand/Draw_Sword_Montage.Draw_Sword_Montage'","1.750000","True"
+2,"TwoHand","AnimMontage'/Game/Character/Montages/TwoHand/GreatSword_Draw.GreatSword_Draw'","1.750000","True"
