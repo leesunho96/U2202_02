@@ -59,9 +59,9 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 
-	UPROPERTY()
+	UPROPERTY(VisibleAnywhere)
 	UStaticMeshComponent *Body;
 
-	UPROPERTY()
-	UStaticMeshComponent *Effect;
+	UPROPERTY(VisibleAnywhere)
+	UStaticMeshComponent *Edge;
 };

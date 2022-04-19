@@ -16,10 +16,10 @@ AMyActor::AMyActor()
 
 
 	Body = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("BODY"));
-	Effect = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("EFFECT"));
+	Edge = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("EDGE"));
 
 	RootComponent = Body;
-	Effect->SetupAttachment(Body);
+	Edge->SetupAttachment(Body);
 }
 
 // Called when the game starts or when spawned
@@ -33,8 +33,5 @@ void AMyActor::BeginPlay()
 void AMyActor::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
-
-
 }
 
